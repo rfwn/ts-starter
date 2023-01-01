@@ -1,0 +1,35 @@
+{
+  "name": "discord-isles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js",
+    "start:dev": "nodemon",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "build": "rimraf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfwn/discord-isles.git"
+  },
+  "keywords": [],
+  "author": "rfwn࿐",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfwn/discord-isles/issues"
+  },
+  "homepage": "https://github.com/rfwn/discord-isles#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.31.0",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
